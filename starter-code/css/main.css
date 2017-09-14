@@ -9,6 +9,24 @@ body {
   margin: 0;
 }
 
+header {
+  background-color: #1c5380;
+}
+
+
+button {
+  color: white;
+  background-color: #1c5380
+}
+
 article {
   background-image: url(images/frame.png);
+}
+
+.tag-line {
+  color: #06365f;
+}
+
+.links {
+  color: #1c5380;
 }
