@@ -13,15 +13,28 @@ button {
   color: white;
   background-color: #1c5380
 }
+
 main{
   margin: 0 auto;
   width: 75%;
+  background-color: #1c5380
+
+}
+div {
+  float: right;
+  width: 55%;
+  background-image: url(../images/frame.png);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 article {
-  float: right;
-  margin-right: 7%;
-  width: 43%
+  float: left;
+  margin-left: 40px;
+  margin-top: 15px;
+}
+p {
+  width: 410px;
 }
 
 span {
@@ -30,12 +43,19 @@ span {
 
 .tag-line {
   color: #06365f;
+  width: 250px;
 }
 
 .stores {
   position: absolute;
+  bottom: -110px;
+  right: 320px;
 }
 
 .links {
   color: #1c5380;
+}
+
+.stores>img {
+  margin-left: 10px;
 }
