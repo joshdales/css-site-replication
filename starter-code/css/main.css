@@ -26,12 +26,13 @@ button {
 
 main{
   margin: 0 auto;
-  width: 75%;
+  width: 80%;
 }
 
 div {
   float: right;
-  width: 55%;
+  display: inline-block;
+  width: 50%;
   background-image: url(../images/frame.png);
   background-size: contain;
   background-repeat: no-repeat;
@@ -39,9 +40,10 @@ div {
 
 article {
   float: left;
-  margin-left: 40px;
+  margin-left: 15px;
   margin-top: 15px;
 }
+
 p {
   width: 410px;
 }
@@ -51,7 +53,7 @@ span {
 }
 
 footer {
-  margin: 60px auto;
+  margin: 30px auto;
   text-transform: uppercase;
   width: fit-content;
   font-size: smaller;
@@ -71,12 +73,15 @@ aside {
 }
 
 .phones {
-  margin-top: -70px;
+  margin-top: -80px;
+  margin-right: 110px;
+
 }
 
 .tag-line {
   color: #06365f;
   width: 250px;
+  margin-top: 0px;
 }
 
 .stores {
