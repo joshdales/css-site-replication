@@ -9,22 +9,31 @@ body {
   margin: 0;
 }
 
-header {
-  background-color: #1c5380;
-}
-
-
 button {
   color: white;
   background-color: #1c5380
 }
+main{
+  margin: 0 auto;
+  width: 75%;
+}
 
 article {
-  background-image: url(images/frame.png);
+  float: right;
+  margin-right: 7%;
+  width: 43%
+}
+
+span {
+  font-weight: bold;
 }
 
 .tag-line {
   color: #06365f;
+}
+
+.stores {
+  position: absolute;
 }
 
 .links {
